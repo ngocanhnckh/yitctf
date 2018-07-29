@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App Icons -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -38,8 +38,8 @@
                         <!--</a>-->
                         <!-- Image Logo -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo-sm.png" alt="" height="22" class="logo-small">
-                            <img src="assets/images/logo.png" alt="" height="24" class="logo-large">
+                            <img src="/assets/images/logo-sm.png" alt="" height="22" class="logo-small">
+                            <img src="/assets/images/logo.png" alt="" height="24" class="logo-large">
                         </a>
 
                     </div>
@@ -70,7 +70,7 @@
                             <li class="list-inline-item dropdown notification-list">
                                 <a class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="false" aria-expanded="false">
-                                    <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
+                                    <img src="/assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 @guest
@@ -172,17 +172,17 @@
 
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/modernizr.min.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/jquery.slimscroll.js"></script>
-        <script src="assets/js/jquery.nicescroll.js"></script>
-        <script src="assets/js/jquery.scrollTo.min.js"></script>
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/popper.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/modernizr.min.js"></script>
+        <script src="/assets/js/waves.js"></script>
+        <script src="/assets/js/jquery.slimscroll.js"></script>
+        <script src="/assets/js/jquery.nicescroll.js"></script>
+        <script src="/assets/js/jquery.scrollTo.min.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/app.js"></script>
+        <script src="/assets/js/app.js"></script>
 
     </body>
 </html>
