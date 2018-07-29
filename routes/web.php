@@ -30,3 +30,10 @@ Route::get('/completed',function(){
 Route::post('/submit','ProcessController@process')->name('submit');
 
 Route::post('/reset','ProcessController@resetGame')->name('reset');
+Route::get('/question/add',function(){
+    return view('addquestion');
+});
+Route::get('/question/edit/{id}','EditQuestion@index');
+Route::get('/question',function(){
+    return view('listquestion');
+});
