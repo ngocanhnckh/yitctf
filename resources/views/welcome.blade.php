@@ -86,7 +86,11 @@
             .title {
                 font-size: 84px;
             }
-
+            {@media(max-width:600px) {
+                .title {
+                font-size: 84px;
+            }
+            }
             .links > a {
                 color: #fff;
                 padding: 0 25px;
@@ -95,6 +99,19 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+
+            {@media(max-width:600px)
+                .links > a {
+                    display:block;
+                color: #fff;
+                padding: 0 0 25px 0;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
             }
 
             .m-b-md {
