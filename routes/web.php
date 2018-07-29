@@ -25,3 +25,7 @@ Route::get('/',function(){
 Route::get('/question/add',function(){
     return view('addquestion');
 });
+Route::get('/question/edit/{id}','EditQuestion@index');
+Route::get('/question',function(){
+    return view('listquestion');
+});
