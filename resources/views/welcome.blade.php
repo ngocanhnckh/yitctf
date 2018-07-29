@@ -86,11 +86,7 @@
             .title {
                 font-size: 84px;
             }
-            {@media(max-width:600px) {
-                .title {
-                font-size: 84px;
-            }
-            }
+            
             .links > a {
                 color: #fff;
                 padding: 0 25px;
