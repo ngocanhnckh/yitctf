@@ -22,3 +22,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/',function(){
     return view('welcome');
 });
+
+Route::get('/completed',function(){
+    return view('completed');
+})->middleware('user_completed');
+
+Route::post('/submit','ProcessController@process')->name('submit');
+
+Route::post('/reset','ProcessController@resetGame')->name('reset');
